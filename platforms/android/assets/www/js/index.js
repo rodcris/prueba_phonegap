@@ -45,5 +45,14 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        alert("inicioooo");
+        localNotification.add(103, {
+            seconds: 30,
+            message: "This is an example",
+            badge: 1
+        });        
+        alert("fin");
+
     }
 };
